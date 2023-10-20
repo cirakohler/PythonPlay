@@ -1,0 +1,17 @@
+week_schedule = [
+  {'Monday' : ['School', 'Gym']}, 
+  {'Tuesday' : ['School', 'Gym']}, 
+  {'Wednesday' : ['School', 'Gym']}, 
+  {'Thursday' : ['School', 'Gym']}, 
+  {'Friday' : ['School', 'Gym']}, 
+  {'Saturday' : ['No School', 'No Gym']}, 
+  {'Sunday' : ['No School', 'No Gym']}]
+
+print('Weekly Schedule')
+print('\t Monday:' + str(week_schedule[0]['Monday']))
+print('\t Tuesday:' + str(week_schedule[1]['Tuesday']))
+print('\t Wedneday:' + str(week_schedule[2]['Wednesday']))
+print('\t Thursday:' + str(week_schedule[3]['Thursday']))
+print('\t Friday:' + str(week_schedule[4]['Friday']))
+print('\t Saturday:' + str(week_schedule[5]['Saturday']))
+print('\t Sunday:' + str(week_schedule[6]['Sunday']))
